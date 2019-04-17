@@ -41,6 +41,18 @@ namespace ConsoleApp2
 
         for (int y = 0; y < words.Length - 1; y++)
         {
+            currentWord = words[y];
+            nextWord = words[y + 1];
+            //TODO: USe an IF statement to make sure that variable longestWord
+            // is always set to the longest Word in the input string
+        }
+    }
+
+    public Program()
+    {
+    }
+}
+    }
 
         }
         }
