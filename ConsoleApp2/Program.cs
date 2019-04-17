@@ -24,7 +24,24 @@ namespace ConsoleApp2
             {
                 // Write a C# prograam to find the longest word in a string.
                 string[] words = input.Split('');
+        int wordArrayLength = words.Length;
+        int[] wordsLength = new int[wordArrayLength];
+        int x = 0;
 
-            }
+        foreach (var word in words)
+        {
+            //TODO
+        }
+        //loop post condition: we now have  array wordsLength which
+        // contain the length of each word
+
+        string currentWord = words[0];
+        string nextWord;
+        string longestWord = currentWord;
+
+        for (int y = 0; y < words.Length - 1; y++)
+        {
+
+        }
         }
 }
